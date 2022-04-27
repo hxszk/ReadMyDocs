@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'ReadMyDocs'
-copyright = '2021, Graziella'
-author = 'Graziella'
+copyright = '2021, Alex'
+author = 'Alex Hao'
 
 release = '0.1'
 version = '0.1.0'
@@ -26,6 +26,19 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+# The default language to highlight source code in. The default is 'python'.
+# The value should be a valid Pygments lexer name, see Showing code examples for more details.
+highlight_language = 'c'
+
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+#
+source_suffix = ['.rst', '.md']
+
+
+# The master toctree document.
+master_doc = 'index'
 
 # -- Options for HTML output
 
